@@ -1,0 +1,21 @@
+
+Create the Kind cluster
+![alt text](image.png)
+
+Install Argo CD
+![alt text](image-1.png)
+kubectl get pods -n argocd
+
+Access the UI
+
+Get the admin password:
+![alt text](image-2.png)
+
+In a separate terminal (leave it running):
+![alt text](image-3.png)
+
+Open https://localhost:8080, accept the certificate warning, and log in with username admin and the password from step 1.
+![alt text](image-4.png)
+![alt text](image-5.png)
+
+Create the GitHub repo (desired state)
