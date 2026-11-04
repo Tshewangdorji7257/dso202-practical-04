@@ -19,3 +19,13 @@ Open https://localhost:8080, accept the certificate warning, and log in with use
 ![alt text](image-5.png)
 
 Create the GitHub repo (desired state)
+![alt text](image-6.png)
+
+Register the app in Argo CD
+![alt text](image-7.png)
+
+Apply it and check
+![alt text](image-9.png)
+![alt text](image-8.png)
+
+The three experiments
