@@ -30,7 +30,10 @@ Apply it and check
 
 The three experiments
 Experiment 1: Git as source of truth. Edit manifests/deployment.yaml, change replicas: 2 to 4, then:
+![alt text](image-12.png)
 ![alt text](image-10.png)
+
+Open the UI (https://localhost:8080), click Refresh on the my-webapp tile, or wait up to 3 minutes. Or watch from the terminal:
 
 Experiment 2: Self-healing. With the UI visible, run:
 ![alt text](image-11.png)
