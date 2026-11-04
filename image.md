@@ -29,3 +29,10 @@ Apply it and check
 ![alt text](image-8.png)
 
 The three experiments
+Experiment 1: Git as source of truth. Edit manifests/deployment.yaml, change replicas: 2 to 4, then:
+![alt text](image-10.png)
+
+Experiment 2: Self-healing. With the UI visible, run:
+![alt text](image-11.png)
+
+Experiment 3: Pruning. Delete the Service from Git:
