@@ -41,3 +41,8 @@ Experiment 2: Self-healing. With the UI visible, run:
 ![alt text](image-11.png)
 
 Experiment 3: Pruning. Delete the Service from Git:
+![alt text](image-16.png)
+
+Refresh the UI, then run kubectl get svc -n demo-app. webapp-svc should be gone. Restore it with:
+![alt text](image-17.png)
+![alt text](image-18.png)
