@@ -31,7 +31,7 @@ Apply it and check
 The three experiments
 Experiment 1: Git as source of truth. Edit manifests/deployment.yaml, change replicas: 2 to 4, then:
 ![alt text](image-12.png)
-![alt text](image-10.png)
+![alt text](image-13.png)
 
 Open the UI (https://localhost:8080), click Refresh on the my-webapp tile, or wait up to 3 minutes. Or watch from the terminal:
 
